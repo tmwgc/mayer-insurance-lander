@@ -22,13 +22,10 @@ const Hero: FC<{ label: string; splitAfter: string }> = ({ label, splitAfter }) 
   return (
     <div className={styles.heroContent}>
       <h1 className={styles.heroHeading}>
-        Protect Your Home, Auto, Life, and Business with Trusted Insurance Carriers.
+        Protect Your Home, Auto & Life with Trusted Insurance Carriers.
       </h1>
       <p className={styles.heroText}>
-        At Williamson Insurance Agency, we are committed to protecting the privacy and security of
-        your personal information when you engage with us through text messaging. This Privacy
-        Policy outlines how we collect, use, disclose, and safeguard your information in the context
-        of text messaging communications.
+       We are the best professional insurance consulting agency for all needs. We offer exclusive consultations and services that protect you, your beloved, and your belongings at all costs, to keep you protected and hassle-free.
       </p>
       <div
         className={styles.heroLink}
