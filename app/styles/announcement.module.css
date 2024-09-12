@@ -126,7 +126,7 @@
 	gap: 5px;
 }
 .cancelIconInside {
-	flex: 0.2;
+	flex: 0.1;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -160,7 +160,18 @@
 }
 
 /* media query */
-@media screen and (max-width: 1150px) {
+
+@media screen and (min-width:1450px){
+	.announcementBtn{
+		flex: 0.2;
+	}
+}
+@media screen and (max-width:1350px) {
+	.contentDiv{
+		flex: 0.5;
+	}
+}
+/* @media screen and (max-width: 1150px) {
 	.content {
 		display: flex;
 		flex-direction: column;
@@ -230,4 +241,4 @@
 	.announcement {
 		gap: 0px;
 	}
-}
+} */

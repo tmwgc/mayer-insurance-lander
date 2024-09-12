@@ -1,0 +1,181 @@
+/* styles/contact.module.css */
+
+.container {
+    width: 100%;
+    max-width: 904px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .frame1221 {
+    width: 100%;
+    max-width: 724px;
+    height: auto;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .contactTitle {
+    text-align: center;
+    color: #999;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+  
+  .quoteTitle {
+    text-align: center;
+    color: #0029FF;
+    font-size: 52px;
+    font-weight: 600;
+  }
+  
+  .description {
+    width: 100%;
+    max-width: 724px;
+    text-align: center;
+    color: #959CBC;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .arrowButtonIcon{
+    width: inherit;
+  }
+  
+  .button {
+    padding: 16px 32px;
+    background: #2044FF;
+    box-shadow: 0px 10px 20px rgba(32, 68, 255, 0.10);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .calendarIcon {
+    width: 16px;
+    height: 16px;
+    position: relative;
+  }
+  
+  .icon {
+    border: 1px white solid;
+    position: absolute;
+  }
+  
+  .scheduleText {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .contactInfoWrapper {
+    width: 100%;
+    max-width: 904px;
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+  }
+  
+  .infoCard {
+    background: #E8F0FF;
+    border-radius: 24px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .infoTitle {
+    text-align: center;
+    color: #0029FF;
+    font-size: 28px;
+    font-weight: 500;
+  }
+  
+  .contactItem {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .contactIcon {
+    width: 32px;
+    height: 32px;
+    background: #0029FF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .openHoursCard {
+    width: 100%;
+    max-width: 432px;
+    border: 1px #E8F0FF solid;
+    border-radius: 24px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .openHoursTitle {
+    text-align: center;
+    color: #40497A;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .hoursItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .hoursLabel {
+    color: #959CBC;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .hoursValueColor{
+    color: #2044FF;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .hoursValue {
+    color: #959CBC;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .frame1221 {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .button {
+      flex-direction: column;
+    }
+  
+    .contactItem {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  

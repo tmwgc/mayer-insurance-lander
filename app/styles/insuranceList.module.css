@@ -100,6 +100,12 @@
 .leftRight {
 	display: flex;
 	padding-bottom: 10px;
+	height: 100%;
+}
+.listDiv{
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
 }
 
 .details {
@@ -125,8 +131,8 @@
 }
 .licenseName,
 .licenseNumber {
-	font-size: 15px;
-	font-weight: 100;
+	font-size: 14px;
+	font-weight: 400;
 	color: var(--stone-gray);
 }
 .rightRight {
@@ -165,6 +171,7 @@
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
+	justify-content: center;
 }
 
 .contentDiv:not(:last-child)::after {
@@ -181,7 +188,7 @@
 .licenseLabel {
 	color: var(--stone-gray);
 	font-weight: 700;
-	font-size: 20px;
+	font-size: 16px;
 }
 .logoContent {
 	display: flex;
@@ -220,9 +227,10 @@
 	gap: 10px;
 }
 .brandName {
-	font-size: 19px;
-	color: var(--primary-dark);
-	font-weight: 800;
+	font-size: 25px;
+	color: #001FC0;
+	font-weight: 700;
+	letter-spacing: -1px;
 }
 
 .firstGroupCertification {
@@ -265,4 +273,18 @@
 	flex-direction: row-reverse;
 	justify-content: space-between;
 	padding-right: 40px;
+}
+
+
+@media screen and (max-width:1300px) {
+	.brandName{
+		font-size: 20px;
+	}
+	.left{
+		flex: 1;
+	}
+	.contentDiv{
+		flex: 0.5;
+		padding: 0 10px;
+	}
 }

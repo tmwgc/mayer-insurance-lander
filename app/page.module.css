@@ -1,47 +1,127 @@
-.container {
+.heroSection {
 	width: 100%;
-	height: 100vh;
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	background-image: url('../public/people//heroBg.svg');
+	align-items: start;
+	background-image: url('/people/heroBg.svg'); /* Path to your image */
 	background-repeat: no-repeat;
-	background-size: cover;
-}
-.contentPage {
+	background-size: cover; /* Ensures the image covers the whole container */
+	background-position: center; /* Centers the image */
+	padding: 100px 40px;
+	box-sizing: border-box;
+  }
+  .privatePolicy{
+	padding: 40px 10px;
+  }
+  .heroContainer {
 	width: 100%;
-	margin: auto;
-}
-.hero {
-	width: 90%;
+	max-width: 1200px;
+	gap: 50px;
 	text-align: center;
 	display: flex;
-	gap: 20px;
-	align-items: center;
-	justify-content: center;
-}
-.h1_tag {
-	color: var(--primary-dark-h1);
-	font-size: 1.6rem;
-	font-style: normal;
-	font-weight: 600;
-	line-height: 24px;
-	letter-spacing: normal;
-}
-.p_tag {
-	text-align: justify;
-	color: #191919;
-}
-.content {
+  }
+  
+  .heroContent {
 	display: flex;
 	flex-direction: column;
+	gap: 20px;
 	text-align: start;
-	align-items: start;
-	gap: 40px;
-	flex: 1;
-}
-.link {
+	color: white;
+  }
+  
+  .heroHeading {
+	color: #2044FF;
+	word-wrap: break-word;
+    font-size: 32px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing:normal;
+	font-weight: 600;
+	margin: 0;
+  }
+  
+  .heroSpan {
+	display: block;
+	font-size: 2.5rem;
+	font-weight: 700;
+  }
+  
+  .heroText {
+	font-size: 1.125rem;
+	line-height: 1.6;
+	max-width: 800px;
+	text-align: justify;
+  }
+  
+  .heroLink {
 	display: flex;
 	align-items: center;
 	gap: 10px;
-}
+	cursor: pointer;
+	margin-top: 20px;
+  }
+  
+  .arrowIcon {
+	width: 70px;
+	height: auto;
+  }
+  
+  .heroButtonText {
+	font-size: 23px;
+	font-weight: 600;
+	margin: 0;
+  }
+  
+  /* Responsive styles */
+
+  @media screen and (max-width:1350px) {
+	.heroHeading{
+		font-size: 26px;
+	}
+	.heroText{
+		font-size: 15px;
+	}
+	.heroButtonText{
+		font-size: 18px;
+	}
+	.arrowIcon{
+		width: 40px;
+	}
+  }
+
+  /* @media (max-width: 768px) {
+	.heroHeading {
+	  font-size: 2rem;
+	}
+  
+	.heroSpan {
+	  font-size: 2rem;
+	}
+  
+	.heroText {
+	  font-size: 1rem;
+	}
+  
+	.heroButtonText {
+	  font-size: 1.25rem;
+	}
+  }
+  
+  @media (max-width: 480px) {
+	.heroHeading {
+	  font-size: 1.5rem;
+	}
+  
+	.heroSpan {
+	  font-size: 1.5rem;
+	}
+  
+	.heroText {
+	  font-size: 0.875rem;
+	}
+  
+	.heroButtonText {
+	  font-size: 1rem;
+	}
+  } */
+  
