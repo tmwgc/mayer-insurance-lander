@@ -12,7 +12,7 @@ const ContactUs = () => (
   <div className={styles.container}>
     <div className={styles.frame1221}>
       <div className={styles.contactTitle}>CONTACT US</div>
-      <div className={styles.quoteTitle}>We're here to serve you with utomost professionalism</div>
+      <div className={styles.quoteTitle}>We are here to serve you with utmost professionalism</div>
       <div className={styles.description}>
         Protect Your Home, Auto and Life with a Trusted Insurance Agency Providing
         Comprehensive Solutions in Highland Michigan | Request an appointment with our team
