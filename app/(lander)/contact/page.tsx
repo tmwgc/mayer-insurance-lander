@@ -12,16 +12,15 @@ const ContactUs = () => (
   <div className={styles.container}>
     <div className={styles.frame1221}>
       <div className={styles.contactTitle}>CONTACT US</div>
-      <div className={styles.quoteTitle}>Get a free quote!</div>
+      <div className={styles.quoteTitle}>We're here to serve you with utomost professionalism</div>
       <div className={styles.description}>
-        Protect Your Home, Business, and Valuables with a Trusted Insurance Agency Providing
-        Comprehensive Solutions in Highland Michigan | Request a Customized Quote Today through Our
-        Contact Us Form
+        Protect Your Home, Auto and Life with a Trusted Insurance Agency Providing
+        Comprehensive Solutions in Highland Michigan | Request an appointment with our team
       </div>
       <div className={styles.button}>
         <Image src={calendar} alt="" width={20} height={20} className={styles.arrowButtonIcon} />
 
-        <div className={styles.buttonText}>Get a free consultation now</div>
+        <div className={styles.buttonText}>Schedule an appointment now</div>
       </div>
     </div>
     <div className={styles.contactInfoWrapper}>
@@ -31,13 +30,13 @@ const ContactUs = () => (
           <div className={styles.contactIcon}>
             <Image src={mail} alt="" width={20} height={20} className={styles.arrowButtonIcon} />
           </div>
-          <div>Info@williamsonia.com</div>
+          <div>matt@ftops.com</div>
         </div>
         <div className={styles.contactItem}>
           <div className={styles.contactIcon}>
             <Image src={phone} alt="" width={20} height={20} className={styles.arrowButtonIcon} />
           </div>
-          <div>(810)772-0211</div>
+          <div>586-907-8700</div>
         </div>
         <div className={styles.contactItem}>
           <div className={styles.contactIcon}>
