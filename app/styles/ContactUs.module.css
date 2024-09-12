@@ -34,7 +34,7 @@
   .quoteTitle {
     text-align: center;
     color: #0029FF;
-    font-size: 52px;
+    font-size: 32px;
     font-weight: 600;
   }
   
@@ -43,7 +43,7 @@
     max-width: 724px;
     text-align: center;
     color: #959CBC;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 18px;
   }
   .arrowButtonIcon{
@@ -130,7 +130,7 @@
   }
   
   .openHoursTitle {
-    text-align: center;
+    text-align: start;
     color: #40497A;
     font-size: 20px;
     font-weight: 600;

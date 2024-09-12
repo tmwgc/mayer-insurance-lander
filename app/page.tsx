@@ -51,18 +51,18 @@ const Home: React.FC = () => {
   const { hero }: { hero: Hero } = Settings;
 
   return (
-    <div className={styles.heroSection}>
-      <div className={styles.heroContainer}>
-        <Hero label={hero.label} splitAfter={hero.breakLabel} />
-        <Login />
-      </div>
-    </div>
-    // <>
-    //   <div className={styles.privatePolicy}>
-    //     <PrivatePolicy />
-    //     <ContactUs />
+    // <div className={styles.heroSection}>
+    //   <div className={styles.heroContainer}>
+    //     <Hero label={hero.label} splitAfter={hero.breakLabel} />
+    //     <Login />
     //   </div>
-    // </>
+    // </div>
+    <>
+      <div className={styles.privatePolicy}>
+        {/* <PrivatePolicy /> */}
+        <ContactUs />
+      </div>
+    </>
   );
 };
 
