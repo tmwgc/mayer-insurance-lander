@@ -49,8 +49,8 @@
 		]
 	},
 	"announcement": {
-		"title": "We’re giving a free audit for your Current Insurance that can save you 10K USD Yearly",
-		"content": "Show your appreciation for this asset’s contributor and help them gain more exposure by attributing the asset. To attribute, copy the text below and include it on your project or website.Show your appreciation for this asset’s contributor and help them gain more exposure by attributing the asset. To attribute, copy the text below and include.",
+		"title": "We’re giving a free audit for your Current Insurance Policy and can help you save you 10K USD Yearly",
+		"content": "Every year due to unaware financial and insuring decision we keep loosing track of our policies, their renewal terms and much more that could save and serve us later. Take a moment to claim our free audit offer, where we will inspect your current documents, find discrepancies and fix them to save you and better serve you at insurance terms",
 		"personImg": "/people/person.svg",
 		"icons": {
 			"download": {
@@ -134,8 +134,8 @@
 		"navigation": {
 			"service": [
 				{ "label": "Home Insurances", "link": "" },
-				{ "label": "Life Insurances", "link": "" },
-				{ "label": "Auto Insurances", "link": "" }
+				{ "label": "Auto Insurances", "link": "" },
+				{ "label": "Life Insurances", "link": "" }
 			],
 			"Resources": [
 				{ "label": "Blog & Articles", "link": "" },
@@ -199,34 +199,34 @@
 		{
 			"icon": "/icons/socialMedia/twitter.svg",
 			"label": "Twitter",
-			"link": "https://x.com/tmwgc"
+			"link": "https://x.com"
 		},
 		{
 			"icon": "/icons/socialMedia/linkedin.svg",
 			"label": "Linkedin",
-			"link": "https://www.linkedin.com/in/tmwgc"
+			"link": "https://www.linkedin.com"
 		},
 		{
 			"icon": "/icons/socialMedia/youtube.svg",
 			"label": "Youtube",
-			"link": "https://youtube.com/@tmwgc"
+			"link": "https://youtube.com"
 		},
 		{
 			"icon": "/icons/socialMedia/instagram.svg",
 			"label": "Instagram",
-			"link": "https://www.instagram.com/tmwgc"
+			"link": "https://www.instagram.com"
 		}
 	],
 	"contactIcons": [
 		{
 			"icon": "/icons/socialMedia/phone.svg",
-			"label": "+91 63839 41386",
-			"link": "tel:+916383941386"
+			"label": "586-907-8700",
+			"link": "tel:+586-907-8700"
 		},
 		{
 			"icon": "/icons/socialMedia/send.svg",
-			"label": "consult@tmwgc.com",
-			"link": "mailto:consult@tmwgc.com"
+			"label": "hannah@mayerins.com",
+			"link": "mailto:hannah@mayerins.com"
 		}
 	]
 }
