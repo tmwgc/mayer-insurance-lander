@@ -23,7 +23,7 @@ const Head: React.FC<HeadProps> = (props) => {
 	const router = useRouter()
 
 	const callHandler = () => {
-		window.location.href = 'tel:+91 8122801215'
+		window.location.href = 'tel:+91 586-907-8700'
 	}
 
 	const logoHandler = () => {
