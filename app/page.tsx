@@ -29,7 +29,7 @@ const Hero: FC<{ label: string; splitAfter: string }> = ({ label, splitAfter }) 
       </p>
       <div
         className={styles.heroLink}
-        onClick={() => window.open('https://forms.gle/NBuyAfbNV1wCqGiA6', '_blank')}>
+        onClick={() => window.open('https://mayerins.com', '_blank')}>
         <Image
           className={styles.arrowIcon}
           src={arrowBtn}
