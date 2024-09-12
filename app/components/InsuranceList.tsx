@@ -62,6 +62,27 @@ const InsuranceList: React.FC<Props> = ({
 }) => {
   const { socialMediaIcons, contactIcons, footer } = Settings;
 
+  const insureHome = [
+    { "label": "Mortgage Protection", "link": "" },
+				{ "label": "Renters Insurance", "link": "" },
+				{ "label": "Homeowners Insurance", "link": "" },
+    { "label": "Condo Insurance", "link": "" }
+  ]
+
+const insureAuto = [
+    { "label": "Motor Insurance", "link": "" },
+				{ "label": "Car Insurance", "link": "" },
+				{ "label": "Boat Insurance", "link": "" },
+  { "label": "Vehicle Protection", "link": "" }
+  ]
+
+  const insureLife = [
+    { "label": "Term Life Insurance", "link": "" },
+				{ "label": "Whole Life Insurance", "link": "" },
+				{ "label": "Variable Life Insurance", "link": "" },
+    { "label": "Universal Life Insurance", "link": "" }
+  ]
+
   return (
     <div className={styles.footer}>
       <div className={styles.footerContent}>
@@ -82,7 +103,7 @@ const InsuranceList: React.FC<Props> = ({
             <h2 className={styles.brandName}>Professional Insurance Consulting for all needs.</h2>
             <p className={styles.details}>
               We offer exclusive consultations and services that protect you, your beloved, and your
-              belongings at all costs, hassle-free.
+              belongings at all costs, hassle-free an protected.
             </p>
           </div>
         </div>
@@ -90,9 +111,9 @@ const InsuranceList: React.FC<Props> = ({
           <div className={styles.leftRight}>
             <div className={styles.rightContent}>
               <div className={styles.contentDiv}>
-                <h2 className={styles.instituteDis}>Services</h2>
+                <h2 className={styles.instituteDis}>Insure Home</h2>
                 <div className={styles.listDiv}>
-                  {navigation.service.map((item, index) => (
+                  {insureHome.map((item, index) => (
                     <div className={styles.numbereflexbox} key={index}>
                       <Link href={item.link} className={styles.licenseName}>
                         {item.label}
@@ -102,12 +123,12 @@ const InsuranceList: React.FC<Props> = ({
                 </div>
               </div>
               <div className={styles.contentDiv}>
-                <h2 className={styles.instituteDis}>Resources</h2>
+                <h2 className={styles.instituteDis}>Insure Auto</h2>
                 <div className={styles.listDiv}>
                   {navigation.Resources.length === 0 ? (
                     <p>No resources available.</p>
                   ) : (
-                    navigation.Resources.map((item, index) => (
+                    insureAuto.map((item, index) => (
                       <div className={styles.numbereflexbox} key={index}>
                         <Link href={item.link} className={styles.licenseName}>
                           {item.label}
@@ -118,12 +139,12 @@ const InsuranceList: React.FC<Props> = ({
                 </div>
               </div>
               <div className={styles.contentDiv}>
-                <h2 className={styles.instituteDis}>Legal</h2>
+                <h2 className={styles.instituteDis}>Insure Life</h2>
                 <div className={styles.listDiv}>
                   {navigation.Legal.length === 0 ? (
                     <p>No legal information available.</p>
                   ) : (
-                    navigation.Legal.map((item, index) => (
+                    insureLife.map((item, index) => (
                       <div className={styles.numbereflexbox} key={index}>
                         <Link href={item.link} className={styles.licenseName}>
                           {item.label}
