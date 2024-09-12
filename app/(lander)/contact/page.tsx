@@ -1,14 +1,14 @@
 'use client';
 
-import styles from '../styles/ContactUs.module.css';
+import styles from '../../styles/ContactUs.module.css';
 import Image from 'next/image';
-import calendar from '../../public/icons/access/calendar.svg';
-import mail from '../../public/icons/socialIcons/mail (2).svg';
-import location from '../../public/icons/socialIcons/location.svg';
-import phone from '../../public/icons/socialIcons/call.svg';
-import MapComponent from './Map';
+import calendar from '../../../public/icons/access/calendar.svg';
+import mail from '../../../public/icons/socialIcons/mail (2).svg';
+import location from '../../../public/icons/socialIcons/location.svg';
+import phone from '../../../public/icons/socialIcons/call.svg';
+import MapComponent from '../../components/Map';
 
-const ContactPage = () => (
+const ContactUs = () => (
   <div className={styles.container}>
     <div className={styles.frame1221}>
       <div className={styles.contactTitle}>CONTACT US</div>
@@ -23,23 +23,6 @@ const ContactPage = () => (
 
         <div className={styles.buttonText}>Get a free consultation now</div>
       </div>
-      {/* <div className={styles.button}>
-        <div className={styles.calendarIcon}>
-          <div
-            className={styles.icon}
-            style={{ width: '12px', height: '12px', left: '2px', top: '2.67px' }}></div>
-          <div
-            className={styles.icon}
-            style={{ width: '0', height: '2.67px', left: '10.67px', top: '1.33px' }}></div>
-          <div
-            className={styles.icon}
-            style={{ width: '0', height: '2.67px', left: '5.33px', top: '1.33px' }}></div>
-          <div
-            className={styles.icon}
-            style={{ width: '12px', height: '0', left: '2px', top: '6.67px' }}></div>
-        </div>
-        <div className={styles.scheduleText}>Schedule an appointment</div>
-      </div> */}
     </div>
     <div className={styles.contactInfoWrapper}>
       <div className={styles.infoCard}>
@@ -93,4 +76,4 @@ const ContactPage = () => (
   </div>
 );
 
-export default ContactPage;
+export default ContactUs;

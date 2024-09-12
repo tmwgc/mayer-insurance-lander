@@ -143,8 +143,8 @@
 				{ "label": "Download Brandkit", "link": "" }
 			],
 			"Legal": [
-				{ "label": "Privacy Policy", "link": "/PrivatePolicy" },
-				{ "label": "Contact Us", "link": "/contactUs" },
+				{ "label": "Privacy Policy", "link": "/policy" },
+				{ "label": "Contact Us", "link": "/contact" },
 				{ "label": "Sitemap", "link": "" }
 			]
 		},

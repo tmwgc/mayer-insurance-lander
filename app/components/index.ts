@@ -19,8 +19,8 @@ import Login from './Login';
 import Statistics from './Statistics';
 import ContactPage from './ContactPage';
 import MapComponent from './Map';
-import PrivatePolicy from './PrivatePolicy';
-import ContactUs from './ContactUs';
+import PrivatePolicy from '../(lander)/policy/page';
+import ContactUs from '../(lander)/contact/page';
 
 export {
   Login,

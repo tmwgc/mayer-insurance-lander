@@ -1,6 +1,6 @@
 .frame1612 {
-    padding-left: 80px;
-    padding-right: 80px;
+    
+    padding: 40px 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
