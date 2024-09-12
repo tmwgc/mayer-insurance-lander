@@ -1,0 +1,104 @@
+.container {
+	padding: 26px;
+	background: white;
+	border-radius: 24px;
+	border: 2px #f6f6f6 solid;
+	display: flex;
+	flex: 0.5;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 32px;
+}
+
+.header {
+	text-align: center;
+	color: #40497a;
+	font-size: 32px;
+	font-family: Gilroy, sans-serif;
+	font-weight: 600;
+	line-height: 26px;
+	word-wrap: break-word;
+}
+
+.inputGroup {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+.inputBoxFlex {
+	border: none;
+}
+.inputBox {
+	border: none;
+	padding-left: 10px;
+	border-left: 2px solid var(--input-box-border);
+}
+
+.inputWrapper {
+	display: inline-flex;
+	gap: 8px;
+}
+.inputBox:active,
+.inputBox:focus {
+	border: none; /* Hide border when focused */
+	box-shadow: none; /* Optionally remove box shadow */
+}
+.input {
+	border-radius: 8px;
+	border: 2px #ebebeb solid;
+	display: flex;
+	align-items: flex-start;
+	padding: 14px;
+	justify-content: center;
+}
+.lastNameInput {
+	border-radius: 8px;
+	border: 2px solid var(--input-box-border);
+	display: flex;
+	align-items: flex-start;
+	padding: 14px;
+	justify-content: center;
+}
+
+.emailInput,
+.phoneInput {
+	border: 1px #edf0ff solid;
+	border-radius: 8px;
+	display: inline-flex;
+	align-items: center;
+	padding: 14px;
+	gap: 8px;
+}
+
+.button {
+	padding: 16px;
+	width: 100%;
+	background: #2044ff;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.buttonText {
+	color: white;
+	font-size: 14px;
+	font-family: Gilroy, sans-serif;
+	font-weight: 500;
+	text-align: center;
+}
+
+.arrowButtonIcon {
+	width: 30px;
+	height: 30px;
+}
+
+.footerText {
+	color: #959cbc;
+	font-size: 14px;
+	font-weight: 500;
+	text-align: center;
+	word-wrap: break-word;
+}

@@ -1,0 +1,76 @@
+.float {
+	display: flex;
+	background-color: white;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 4px 4px 100px 0px rgba(160, 160, 160, 0.12);
+}
+
+.linkWrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.links {
+	padding: 35px 5px;
+	position: relative;
+	gap: 10px;
+	color: var(--active-color);
+	font-size: 14px;
+}
+.linkWrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.arrowImg {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.links::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 0;
+	height: 5px;
+	border-radius: 50px;
+	background-color: var(--lavender-haze);
+	transition: width 0.3s ease;
+}
+/* .links::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -50%;
+	width: 0;
+	height: 5px;
+	transform: rotateZ(45deg);
+	border-radius: 10px;
+	background-color: var(--lavender-haze);
+	transition: width 0.3s ease;
+} */
+.activeLink {
+	color: white;
+}
+.activeLink::after {
+	width: 100%; /* Full width for the active link */
+}
+.tabViewList {
+	display: flex;
+	justify-content: space-evenly;
+	gap: 10px;
+}
+
+@media (min-width: 1441px) {
+	.tabViewList {
+		display: flex;
+		justify-content: center;
+		gap: 50px;
+	}
+	.links {
+		font-size: 15px;
+	}
+}

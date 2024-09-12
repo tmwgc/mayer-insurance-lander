@@ -1,0 +1,58 @@
+/* styles/ImpressionsComponent.css */
+
+.group876 {
+	width: 172px;
+	height: 88.09px;
+	position: relative;
+}
+
+.impressions {
+	left: 0;
+	top: 51.09px;
+	position: absolute;
+	text-align: center;
+	color: #009e9e;
+	font-size: 32.81px;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	font-weight: 700;
+	line-height: 36.45px;
+	word-wrap: break-word;
+}
+
+.impressionsValue {
+	left: 0;
+	top: 0;
+	position: absolute;
+	text-align: center;
+	color: #009e9e;
+	font-size: 49.87px;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	font-weight: 700;
+	line-height: 55.41px;
+	word-wrap: break-word;
+}
+
+.impressionText {
+	width: 257.76px;
+	text-align: center;
+	color: #777777;
+	font-size: 14.56px;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	font-weight: 500;
+	line-height: 18.26px;
+	word-wrap: break-word;
+}
+
+.adsClick {
+	width: 78.37px;
+	height: 78.37px;
+	padding: 7.89px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.vector {
+	width: 62.51px;
+	height: 62.51px;
+}

@@ -1,0 +1,233 @@
+.main {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	justify-content: space-between;
+	padding: 20px 20px 0 20px;
+	background-color: var(--primary-blue);
+}
+.heading {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	letter-spacing: -0.5px;
+	color: white;
+}
+.paragraph {
+	margin: 0px;
+	font-size: 14px;
+	color: var(--primary-dark);
+	font-weight: 600;
+}
+.timeDiv {
+	display: flex;
+	gap: 15px;
+	justify-content: space-between;
+}
+.offerBtnDiv {
+	display: flex;
+	justify-content: center;
+}
+.offerBtn {
+	border-radius: 10px;
+	padding: 14px 52px;
+	font-size: 15px;
+	color: var(--primary-dark);
+	font-weight: 600;
+}
+.timeText {
+	font-size: 36px;
+	color: white;
+	font-style: normal;
+}
+.timeHeading {
+	font-size: 14px;
+	color: white;
+	text-align: center;
+}
+.calander {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	justify-content: center;
+}
+.minutesText,
+.seText {
+	color: white;
+}
+.minutesDiv,
+.secDiv {
+	padding: 10px 20px;
+	border: 1px solid #3c5bff;
+	text-align: center;
+	color: #3c5bff;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.announcementText {
+	color: var(--periwinkle);
+	text-align: justify;
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	flex: 1;
+}
+.contentDiv {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	flex: 1;
+}
+.personDiv {
+	flex: 0.2;
+	position: relative;
+	display: flex;
+	align-items: center; /* Vertically centers the image */
+	justify-content: center; /* Horizontally centers the image */
+}
+
+.personImg {
+	max-width: 100%; /* Ensure the image scales correctly */
+}
+.content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 30px;
+}
+
+.announcement {
+	background-color: var(--primary-blue);
+	flex: 2;
+	align-items: center;
+	display: flex;
+	gap: 15px;
+}
+.announcementIn {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	gap: 10px;
+}
+.announcementBtn {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	flex: 0.3;
+	justify-content: center;
+}
+.links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+}
+.cancelIconInside {
+	flex: 0.2;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+}
+/* .cancelIconInside {
+	display: flex;
+} */
+.cancelIcon {
+	display: none;
+}
+
+.cancelBtnText {
+	color: white;
+	font-size: 14px;
+}
+.cancel {
+	text-align: center;
+}
+.linkText {
+	color: var(--primary-dark);
+	size: 10px;
+}
+
+.iconSize,
+.cancelBtn {
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+}
+
+/* media query */
+@media screen and (max-width: 1150px) {
+	.content {
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+	}
+	.offerBtn {
+		padding: 14px 30px;
+	}
+}
+
+@media screen and (max-width: 769px) and (min-width: 426px) {
+	.content {
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+	}
+	.iconSize {
+		width: 24px;
+		height: 24px;
+	}
+	.links {
+		gap: 10px;
+	}
+	.paragraph {
+		font-size: 12px;
+		font-weight: 600;
+	}
+	.announcementText {
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 425px) {
+	.main {
+		padding: 20px;
+	}
+	.content {
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+	}
+	.iconSize {
+		width: 20px;
+		height: 20px;
+	}
+	.cancelBtn {
+		width: 24px;
+		height: 24px;
+	}
+	.links {
+		gap: 10px;
+	}
+	.paragraph {
+		font-size: 11px;
+		font-weight: 600;
+	}
+	.announcementBtn {
+		gap: 15px;
+	}
+	.cancelBtnText {
+		font-size: 12px;
+	}
+	.announcementText {
+		font-size: 12px;
+	}
+}
+@media screen and (min-width: 2000px) {
+	.announcement {
+		gap: 0px;
+	}
+}

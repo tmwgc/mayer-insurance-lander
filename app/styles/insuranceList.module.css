@@ -1,0 +1,268 @@
+.broucher {
+	width: auto;
+	height: 170px;
+}
+.footer {
+	width: 100%;
+	background-color: var(--canvas-pure);
+}
+.footerBottom {
+	background-color: var(--border-color);
+}
+.itemLink {
+	color: var(--sky-mist);
+	font-size: 14px;
+}
+.contentText {
+	text-align: center;
+	color: var(--soft-serenity);
+	font-weight: 400;
+	font-size: 14px;
+}
+.items {
+	padding: 20px;
+	background-color: var(--bottom-bar-1);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.content {
+	padding: 20px;
+	background-color: var(--ultramarine-blue);
+}
+.fontWightSm {
+	font-size: 15px;
+	font-weight: 600;
+	color: var(--dark);
+}
+.addressText,
+.contactText {
+	font-size: 14px;
+	color: var(--canvas-pure);
+}
+.addressBoldText {
+	font-size: 14px;
+	font-weight: 800;
+	color: var(--canvas-pure);
+}
+.fontWightSmColor {
+	color: var(--primary-blue);
+	font-size: 14px;
+}
+.fontWightMd {
+	font-size: 16px;
+	color: var(--dark);
+	font-weight: 700;
+}
+.desktop {
+	display: block;
+}
+.mobile {
+	display: none;
+}
+.footerContent {
+	display: flex;
+	padding: 20px 0px;
+	gap: 20px;
+	border-top: 2px solid var(--border-color);
+}
+.left {
+	display: flex;
+	flex: 0.7;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+	padding-right: 10px;
+	border-right: 2px solid var(--border-color);
+}
+.right {
+	flex: 1;
+}
+.fontAddress0 {
+	padding: 20px 0px;
+}
+.socialMedia {
+	display: flex;
+	gap: 15px;
+	justify-content: center;
+	padding: 10px 0px;
+}
+.socialMediaIcons {
+	width: 35px;
+	height: 35px;
+}
+.contact {
+	display: flex;
+	gap: 10px;
+	padding: 0px 10px;
+}
+.leftRight {
+	display: flex;
+	padding-bottom: 10px;
+}
+
+.details {
+	font-size: 14px;
+	color: var(--stone-gray);
+	text-align: justify;
+	font-weight: normal;
+}
+.rightContent {
+	flex: 1;
+	display: flex;
+	justify-content: space-around;
+	gap: 10px;
+	padding-right: 10px;
+}
+.leftContent {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	gap: 10px;
+	padding-right: 10px;
+}
+.licenseName,
+.licenseNumber {
+	font-size: 15px;
+	font-weight: 100;
+	color: var(--stone-gray);
+}
+.rightRight {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 20px;
+	gap: 10px;
+	flex: 0.3;
+}
+.rightBottom {
+	display: flex;
+	padding-top: 10px;
+	gap: 10px;
+	justify-content: space-between;
+	border-top: 2px solid var(--border-color);
+}
+.certification {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	flex: 1;
+}
+.announcementMain {
+	display: none;
+}
+.fontWight {
+	color: var(--primary-dark);
+	font-weight: 600;
+	font-size: 15px;
+}
+.contentDiv {
+	flex: 1; /* Allow items to grow and fill the available space */
+	padding: 0 20px;
+	position: relative; /* Needed for absolutely positioning the border */
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.contentDiv:not(:last-child)::after {
+	content: ''; /* Creates a pseudo-element */
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 1px; /* Width of the border line */
+	background-color: var(--border-color); /* Color of the border line */
+	transform: translateX(50%); /* Center the border line */
+}
+.instituteDis,
+.licenseLabel {
+	color: var(--stone-gray);
+	font-weight: 700;
+	font-size: 20px;
+}
+.logoContent {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+.breakLine {
+	display: block;
+	height: 0px;
+}
+
+.numberDiv {
+	display: flex;
+	gap: 10px;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.numbereflexbox {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	flex: 1;
+}
+.logo {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	padding: 0 10px;
+	gap: 15px;
+}
+.certificationLinks {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.brandName {
+	font-size: 19px;
+	color: var(--primary-dark);
+	font-weight: 800;
+}
+
+.firstGroupCertification {
+	display: flex;
+	gap: 10px;
+}
+
+.certificationContainer {
+	display: flex;
+	gap: 20px;
+	justify-content: space-around;
+	padding: 10px 0px;
+}
+.certificationContainerFirst {
+	display: flex;
+	gap: 20px;
+	justify-content: space-around;
+	padding: 20px 0px;
+	border-top: 2px solid var(--border-color);
+}
+.firstGroupCertificationDiv {
+	flex: 0.5;
+}
+.secondGroupCertificationDiv {
+	display: flex;
+	flex: 1;
+	gap: 20px;
+}
+.certificationImgDiv {
+	position: relative;
+	flex: 0.15;
+	display: flex;
+	align-items: end;
+	justify-content: end;
+}
+.licenseLabel {
+	margin: 0 0;
+}
+.firstGroupCertification > div {
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	padding-right: 40px;
+}
