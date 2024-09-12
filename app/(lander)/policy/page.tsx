@@ -7,18 +7,17 @@ const PrivacyPolicy = () => {
         <div className={styles.privacyPolicy}>PRIVACY POLICY</div>
 
         {/* New Additional Section */}
-        <div className={styles.introduction}>Introduction</div>
 
         <div className={styles.privacyPolicyForWilliamsonInsuranceAgencyTextMessaging}>
-          Privacy Policy for Williamson Insurance Agency - Text Messaging
+          Privacy Policy for Mayer Insurance Agency - Text Messaging
         </div>
         <div className={styles.atWilliamsonInsuranceAgency}>
-          At Williamson Insurance Agency, we are committed to protecting the privacy and security of
+          At Mayer Insurance Agency, we are committed to protecting the privacy and security of
           your personal information when you engage with us through text messaging. This Privacy
           Policy outlines how we collect, use, disclose, and safeguard your information in the
           context of text messaging communications.
         </div>
-        <div className={styles.lastUpdated}>Last updated: February 6, 2024</div>
+        <div className={styles.lastUpdated}>Last updated: September 13, 2024</div>
       </div>
       <div className={styles.informationSection}>
         <div className={styles.sectionTitle}>Information We Collect</div>
@@ -128,8 +127,8 @@ const PrivacyPolicy = () => {
         <div className={styles.sectionDescription}>
           If you have any questions, concerns, or requests regarding this Privacy Policy for text
           messaging or our data practices, please contact us at{' '}
-          <a href="mailto:Richard@williamsonia.com" className={styles.email}>
-            Richard@williamsonia.com
+          <a href="mailto:hannah@mayerins.com" className={styles.email}>
+            hannah@mayerins.com
           </a>
           .
         </div>
