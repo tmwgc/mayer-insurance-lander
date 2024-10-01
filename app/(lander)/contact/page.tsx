@@ -133,7 +133,7 @@ const ContactUs = () => (
 							className={styles.arrowButtonIcon}
 						/>
 					</div>
-					<div>586-907-8700</div>
+					<div>248-413-5377</div>
 				</div>
 				<div className={styles.contactItem}>
 					<div className={styles.contactIcon}>
@@ -146,7 +146,7 @@ const ContactUs = () => (
 						/>
 					</div>
 					<div>
-						1050 South Milford Road, Suite 201, Highland, Michigan 48357, United
+						455 S Livernois Rd Suite, B23 Rochester Hills, MI 48357, United
 						States
 					</div>
 				</div>
