@@ -107,3 +107,7 @@ button :hover {
     min-height: 100vh;
     justify-content: space-between;
 } */
+
+*:focus {
+	outline: none;
+}

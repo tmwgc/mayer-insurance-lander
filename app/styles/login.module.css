@@ -38,6 +38,7 @@
 .inputWrapper {
 	display: inline-flex;
 	gap: 8px;
+	justify-content: space-between;
 }
 .inputBox:active,
 .inputBox:focus {
@@ -51,7 +52,9 @@
 	align-items: flex-start;
 	padding: 14px;
 	justify-content: center;
+	outline: none;
 }
+
 .lastNameInput {
 	border-radius: 8px;
 	border: 2px solid var(--input-box-border);
