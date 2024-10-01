@@ -17,7 +17,7 @@ const Login = (
 	<div className={style.container}>
 		<div className={style.header}>
 			Raise a support ticket
-			<br /> and we're here to help.
+			<br /> and we are here to help.
 		</div>
 		<div className={style.inputGroup}>
 			<div className={style.inputWrapper}>
