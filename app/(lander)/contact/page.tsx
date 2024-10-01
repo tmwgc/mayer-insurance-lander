@@ -91,7 +91,7 @@ const Login = (
 
 const ContactUs = () => (
 	<div className={styles.container}>
-		<div className={styles.frame1221}>
+		<div style={{ alignSelf: 'center' }} className={styles.frame1221}>
 			<div className={styles.contactTitle}>CONTACT US</div>
 			<div className={styles.quoteTitle}>
 				We are here to serve you with utmost professionalism
@@ -106,8 +106,8 @@ const ContactUs = () => (
 
         <div className={styles.buttonText}>Schedule an appointment now</div>
       </div> */}
-			{Login}
 		</div>
+		{Login}
 		<div className={styles.contactInfoWrapper}>
 			<div className={styles.infoCard}>
 				<div className={styles.infoTitle}>Mayer Insurance Agency</div>
