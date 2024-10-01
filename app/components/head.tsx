@@ -69,7 +69,7 @@ const Head: React.FC<HeadProps> = (props) => {
 					/>
 					<div>
 						<p className={styles.contactText}>Avail Consultation</p>
-						<p className={styles.contactText}>586-907-8700</p>
+						<p className={styles.contactText}>248-413-5377</p>
 					</div>
 				</div>
 			</div>
