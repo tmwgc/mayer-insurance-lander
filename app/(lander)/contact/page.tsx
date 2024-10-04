@@ -71,8 +71,8 @@ const Login = (
 				<input type='checkbox' className={styles.inputBox} />
 				<p style={{ fontSize: 12, textAlign: 'left' }}>
 					By checking this box, you are agreeing to receive our marketing,
-					promotional and exclusive service related SMS, Emails and
-					informations. For more information visit our privacy policy page.
+					promotional and exclusive service related SMS. For more information
+					visit our privacy policy page.
 				</p>
 			</div>
 		</div>
@@ -121,7 +121,7 @@ const ContactUs = () => (
 							className={styles.arrowButtonIcon}
 						/>
 					</div>
-					<div>matt@ftops.com</div>
+					<div>hrvalley@acg.aaa.com</div>
 				</div>
 				<div className={styles.contactItem}>
 					<div className={styles.contactIcon}>
