@@ -70,9 +70,8 @@ const Login = () => {
 				<div className={styles.phoneInput}>
 					<input type='checkbox' className={styles.inputBox} />
 					<p style={{ fontSize: 12, textAlign: 'left' }}>
-						By checking this box, you are agreeing to receive our marketing,
-						promotional and exclusive service related SMS. For more information
-						visit our privacy policy page.
+						By checking this box, you are agreeing to receive our SMS. For more
+						information visit our privacy policy page.
 					</p>
 				</div>
 			</div>
