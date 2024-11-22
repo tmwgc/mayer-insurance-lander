@@ -2,6 +2,8 @@
 
 import { useRef, useState } from 'react'
 
+import Link from 'next/link'
+
 import styles from '../../styles/ContactUs.module.css'
 import Image from 'next/image'
 import calendar from '../../../public/icons/access/calendar.svg'
