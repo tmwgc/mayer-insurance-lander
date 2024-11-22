@@ -11,6 +11,8 @@ import arrow from '../../public/icons/access/right_arrow.svg'
 
 import emailjs from '@emailjs/browser'
 
+import Link from 'next/link'
+
 const Login = () => {
 	const form = useRef<HTMLFormElement>(null)
 	const [isFormSubmitted, submitForm] = useState<boolean>(false)
@@ -70,8 +72,8 @@ const Login = () => {
 				<div className={styles.phoneInput}>
 					<input type='checkbox' className={styles.inputBox} />
 					<p style={{ fontSize: 12, textAlign: 'left' }}>
-						By checking this box, you are agreeing to receive our SMS. For more
-						information visit our privacy policy page.
+						I agree to receive marketing and customer service calls and text messages from Mayer Insurance Agency. Consent is not a condition of purchase. Msg/data rates may apply. Msg frequency varies. Reply STOP to unsubscribe.
+						<Link href="https://mayerins.com/policy" >Privacy Policy & Terms of Service.</Link>
 					</p>
 				</div>
 			</div>
