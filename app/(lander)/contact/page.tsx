@@ -82,8 +82,8 @@ const ContactUs = () => {
 				<div className={style.phoneInput}>
 					<input name='consent' type='checkbox' className={styles.inputBox} />
 					<p style={{ fontSize: 12, textAlign: 'left' }}>
-						By checking this box, you are agreeing to receive our SMS. For more
-						information visit our privacy policy page.
+						I agree to receive marketing and customer service calls and text messages from Mayer Insurance Agency. Consent is not a condition of purchase. Msg/data rates may apply. Msg frequency varies. Reply STOP to unsubscribe.
+						<Link style={{ fontSize: 12, textAlign: 'left', color: 'blue' }} href="https://mayerins.com/policy" >Privacy Policy & Terms of Service.</Link>
 					</p>
 				</div>
 			</div>

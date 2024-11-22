@@ -73,7 +73,7 @@ const Login = () => {
 					<input type='checkbox' className={styles.inputBox} />
 					<p style={{ fontSize: 12, textAlign: 'left' }}>
 						I agree to receive marketing and customer service calls and text messages from Mayer Insurance Agency. Consent is not a condition of purchase. Msg/data rates may apply. Msg frequency varies. Reply STOP to unsubscribe.
-						<Link href="https://mayerins.com/policy" >Privacy Policy & Terms of Service.</Link>
+						<Link style={{ fontSize: 12, textAlign: 'left', color: 'blue' }} href="https://mayerins.com/policy" >Privacy Policy & Terms of Service.</Link>
 					</p>
 				</div>
 			</div>
